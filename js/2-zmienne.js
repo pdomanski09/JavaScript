@@ -1,3 +1,4 @@
+'use strict';
 var imie;
 var imieDamskie = "Iza";
 var wiek = 37;
@@ -8,7 +9,7 @@ imie = "sergio"
 
 
 
-imie = imieDamskie
+imie = imieDamskie;
 
 console.log(imie);
 console.log(imieDamskie);
