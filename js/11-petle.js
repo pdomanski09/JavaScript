@@ -15,7 +15,7 @@ for (var i=0; i<tablica.length; ++i) {
 
 
 //pętla foreach
-
+var tablica = ["Krystian", "Monika", "Danuta"];
 tablica.forEach( function( element, index) {
 	console.log( "Element z Indexem: " + index + " na wartość " + element);
 });
