@@ -29,3 +29,27 @@ krystian.przedstawOsobe();
 
 console.log(kaja.wzrost);
 console.log(kaja);
+
+
+//klasy
+class Osoba {
+	constructor(imie, nazwisko) {
+		this.imie = imie;
+		this.nazwisko = nazwisko;
+	}
+	wyswietlInfo(){
+		console.log("Nazywam się: " + this.imie + " " + this.nazwisko);
+	}
+}
+
+var agata = new Osoba("Agata", "Biesaga");
+
+console.log(agata.imie);
+console.log(agata.nazwisko);
+
+var marcin = new Osoba("Marcin", "Kwiatkowski");
+
+console.log(marcin.imie);
+console.log(marcin.nazwisko);
+
+agata.wyswietlInfo();
